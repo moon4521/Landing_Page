@@ -1,2 +1,2 @@
 # landing_page
-Editing Elements with CSS
+Editing elements with CSS by using flexbox
