@@ -22,7 +22,6 @@ body {
     gap: 50px;
     list-style-type: none;
     margin: 0;
-
 }
 
 a {
@@ -43,7 +42,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 400px;
-    text-align: left;
+    text-align: justify;
     padding-top: 5px;
 }
 
@@ -63,9 +62,71 @@ a {
     text-align: center;
     padding: 100px;
     padding-bottom: 160px;
+    color: white;
 }
 
 .left, .img_holder {
     margin-top: 100px;
+}
+
+.info_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.lc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+    width: auto;
+    height: 500px;
+}
+
+.container_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-shrink: 0;
+}
+
+.empty_one, .empty_two, .empty_three, .empty_four {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+}
+
+.txt_one, .txt_two, .txt_three, .txt_four {
+    max-width: 210px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 1150px;
+}
+
+.container_three {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.signature {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 800px;
 }
 
