@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 150px;
+    max-height: 450px;
 }
 
 .header {
@@ -82,7 +83,7 @@ a {
     padding: 30px;
     gap: 40px;
     width: auto;
-    height: 500px;
+    height: 450px;
 }
 
 .container_two {
@@ -115,7 +116,7 @@ a {
 }
 
 .container_three {
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     height: 400px;
